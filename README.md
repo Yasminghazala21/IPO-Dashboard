@@ -1,70 +1,158 @@
-# Getting Started with Create React App
+# 📊 IPO Dashboard – React Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A clean, responsive **IPO Listing & Details Dashboard** built with **React**, designed to demonstrate strong fundamentals in UI development, component architecture, and responsive design — exactly aligned with real-world frontend expectations.
 
-## Available Scripts
+> This project was created as part of a technical assignment and focuses on **clarity, scalability, and user experience**, without relying on external UI libraries.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Live Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The application consists of **two main pages**:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. **IPO List Page** – Displays a list of upcoming IPOs with key information.
+2. **IPO Details Page** – Shows detailed IPO information with a responsive timeline and company overview.
 
-### `npm test`
+Both pages are fully responsive and optimized for **desktop and mobile views**.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🧠 Key Highlights
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* ⚛️ Built using **React Functional Components**
+* 🎯 Uses **React Router** for page navigation
+* 📱 Fully **responsive UI** (Desktop + Mobile)
+* 🧩 Modular and reusable component structure
+* 🎨 Custom UI built using **pure CSS + Flexbox**
+* 🔤 Uses **Sora** font for a modern, professional look
+* 🧪 Static data used to **simulate real API responses**
+* 🚫 No external UI libraries (intentional design choice)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📄 Pages & Features
 
-### `npm run eject`
+### 1️⃣ IPO List Page
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* Displays IPOs in a clean, table-like layout
+* Shows:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  * Company name
+  * Issue date
+  * Issue size
+  * Price range
+  * Minimum investment
+  * Number of lots
+* Each IPO row is clickable and navigates to the details page
+* Responsive layout converts table view into stacked cards on mobile
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 2️⃣ IPO Details Page
 
-## Learn More
+#### Desktop View
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* Header with **Home navigation placeholder**
+* **Download button** 
+* IPO details card showing all key values
+* Horizontal IPO timeline with connected progress steps
+* About company section
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### Mobile View
 
-### Code Splitting
+* Layout stacks vertically for better readability
+* IPO timeline converts into a **vertical stepper**
+* About section includes **Read More / Read Less** toggle
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 🧱 Tech Stack
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+| Technology        | Usage          |
+| ----------------- | -------------- |
+| React             | UI development |
+| React Router      | Navigation     |
+| HTML5             | Markup         |
+| CSS3              | Styling        |
+| Flexbox           | Layout system  |
+| JavaScript (ES6+) | Logic          |
 
-### Making a Progressive Web App
+> **Note:** No UI frameworks (Material UI, Bootstrap, Tailwind, etc.) were used.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 📁 Project Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```
+src/
+ ├── components/
+ │    ├── IpoList.jsx
+ │    ├── IpoDetails.jsx
+ │    └── ipo.css
+ │
+ ├── data/
+ │    └── ipoData.js
+ │
+ ├── App.js
+ ├── index.js
+ └── index.css
+```
 
-### Deployment
+This structure keeps **data, components, and styling cleanly separated**, making the project easy to scale and maintain.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## 🔁 State & Logic
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* IPO data is stored locally as a JavaScript object to mock real API behavior
+* URL parameters are used to fetch the correct IPO details
+* Component-level state is used for UI interactions such as **Read More / Read Less**
+
+---
+
+## 📱 Responsive Design Strategy
+
+* Desktop-first layout using Flexbox
+* Media queries at `768px` breakpoint
+* Timeline switches from horizontal → vertical
+* Text-heavy sections optimized for small screens
+
+---
+
+## 🛠️ How to Run the Project Locally
+
+```bash
+npm install
+npm start
+```
+
+Then open:
+
+```
+http://localhost:3000
+```
+
+---
+
+## 🎯 What This Project Demonstrates
+
+* Strong understanding of **React fundamentals**
+* Ability to convert UI designs into functional components
+* Clean CSS architecture without external dependencies
+* Attention to responsiveness and usability
+* Real-world approach to frontend assignments
+
+---
+
+## 📌 Possible Enhancements
+
+* Fetch IPO data from a real API
+* Add animations to timeline transitions
+* Implement actual file download functionality
+* Improve accessibility (ARIA roles, keyboard navigation)
+
+---
+
+## 👤 Author
+
+**Yasmin Ghazala**

@@ -1,0 +1,408 @@
+.ipo-list-container {
+  padding: 0 20px;
+  background-color: #f5f5f5;
+}
+
+.ipo-table {
+  background: #ffffff;
+  overflow: hidden;
+  border-left: 2px solid #e5e5ea;
+  border-right: 2px solid #e5e5ea;
+}
+
+.ipo-table-header {
+  background: #f5f5f5;
+}
+
+.ipo-table-header,
+.ipo-row {
+  display: flex;
+  align-items: center;
+  padding: 16px 20px;
+}
+
+.ipo-table-header span {
+  flex: 1;
+  color: #78747f;
+  font-weight: 600;
+}
+
+.ipo-row {
+  border-bottom: 1px solid #eef0f5;
+  cursor: pointer;
+}
+
+.ipo-row:hover {
+  background-color: #f9fafc;
+}
+
+.company-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex: 1;
+}
+
+.logo {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #e0e7ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+}
+
+.company-name {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.highlight-info {
+  color: black;
+  font-weight: 800;
+}
+
+.issue-date {
+  font-size: 12px;
+  color: #78747f;
+  font-weight: 600;
+}
+
+.cell {
+  flex: 1;
+  font-size: 14px;
+}
+
+.lots {
+  font-size: 12px;
+  color: #78747f;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+.ipo-not-found {
+  padding: 20px;
+}
+
+.ipo-details-container {
+  padding: 24px;
+  background-color: white;
+}
+
+.navigation-container {
+  margin-bottom: 26px;
+  font-size: 14px;
+  color: #6b7280;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.greater-than-icon {
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.details-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  margin-top: 20px;
+}
+
+.details-subcontainer {
+  display: flex;
+  align-items: center;
+}
+
+.company-name-container {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.back-button {
+  background: white;
+  border: 2px solid #e5e5ea;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 6px;
+  padding: 5px 8px;
+  margin-right: 10px;
+}
+
+.details-logo {
+  margin-right: 10px;
+}
+
+.company-name-full {
+  font-size: 12px;
+  color: #78747f;
+  font-weight: 400;
+}
+
+.download-section-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.download-icon {
+  font-size: 30px;
+  color: #14143c;
+  cursor: pointer;
+}
+
+.applynow-button {
+  background-color: #14143c;
+  color: #ffffff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 10px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.ipo-details-main-container {
+  border-radius: 12px;
+  border: 2px solid #e5e5ea;
+  padding: 20px;
+  margin-bottom: 24px;
+}
+
+.ipo-details-main-container h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: #14143c;
+}
+
+.ipo-details-card {
+  background: #ffffff;
+  border-radius: 12px;
+  border: 2px solid #e5e5ea;
+  padding: 20px;
+  margin-bottom: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px 40px;
+}
+
+.detail-row {
+  flex: 0 0 calc(25% - 40px);
+  min-width: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+
+.detail-row span {
+  color: #6b7280;
+}
+
+.detail-row strong {
+  font-weight: 600;
+}
+
+.ipo-details-card .detail-row:last-child {
+  margin-bottom: 0;
+}
+
+.ipo-timeline {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.ipo-timeline::before {
+  content: "";
+  position: absolute;
+  top: 20px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: #e5e5ea;
+  z-index: 0;
+}
+
+.timeline-item {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  width: 100%;
+}
+
+.circle {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #50af55;
+  margin: 0 auto 8px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+}
+
+.min-quantity-row {
+  display: none;
+}
+
+.timeline-item .title {
+  font-size: 13px;
+  font-weight: 600;
+  color: #14143c;
+}
+
+.timeline-item .date {
+  font-size: 12px;
+  color: #6b7280;
+  margin-top: 4px;
+}
+
+.about-section p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #374151;
+  margin-top: 8px;
+}
+
+.read-more-button {
+  display: none;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .ipo-list-container {
+    padding: 15px 15px;
+  }
+  .ipo-table-header {
+    display: none;
+  }
+
+  .ipo-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .cell {
+    display: none;
+  }
+
+  .ipo-details-container {
+    padding: 16px;
+  }
+
+  .navigation-container {
+    display: none;
+  }
+
+  .back-button {
+    display: none;
+  }
+
+  .details-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .details-header h2 {
+    font-size: 16px;
+  }
+
+  .download-section-container {
+    display: none;
+  }
+
+  .ipo-details-card {
+    padding: 16px;
+    margin-bottom: 0;
+  }
+
+  .detail-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+  }
+
+  .ipo-details-main-container {
+    border: none;
+    margin-bottom: 10px;
+  }
+
+  .ipo-timeline {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .ipo-timeline::before {
+    left: 18px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    height: 100%;
+  }
+
+  .min-quantity-row {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .hiden-on-mobile {
+    display: none;
+  }
+
+  .timeline-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    text-align: left;
+  }
+
+  .circle {
+    margin: 0;
+    flex-shrink: 0;
+  }
+
+  .timeline-item .title {
+    font-size: 14px;
+  }
+
+  .about-section {
+    padding: 16px;
+  }
+
+  .about-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .about-text.expanded {
+    -webkit-line-clamp: unset;
+  }
+
+  .read-more-button {
+    display: inline-block;
+    margin-top: 8px;
+    background: none;
+    border: none;
+    color: orange;
+    text-decoration: underline;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+}
