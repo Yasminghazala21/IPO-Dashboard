@@ -6,7 +6,7 @@ A clean, responsive **IPO Listing & Details Dashboard** built with **React**, de
 
 ---
 
-## 🚀 Live Overview
+## Live Overview
 
 The application consists of **two main pages**:
 
@@ -17,16 +17,16 @@ Both pages are fully responsive and optimized for **desktop and mobile views**.
 
 ---
 
-## 🧠 Key Highlights
+## Key Highlights
 
-* ⚛️ Built using **React Functional Components**
-* 🎯 Uses **React Router** for page navigation
-* 📱 Fully **responsive UI** (Desktop + Mobile)
-* 🧩 Modular and reusable component structure
-* 🎨 Custom UI built using **pure CSS + Flexbox**
-* 🔤 Uses **Sora** font for a modern, professional look
-* 🧪 Static data used to **simulate real API responses**
-* 🚫 No external UI libraries (intentional design choice)
+* Built using **React Functional Components**
+* Uses **React Router** for page navigation
+* Fully **responsive UI** (Desktop + Mobile)
+* Modular and reusable component structure
+* Custom UI built using **pure CSS + Flexbox**
+* Uses **Sora** font for a modern, professional look
+* Static data used to **simulate real API responses**
+* No external UI libraries (intentional design choice)
 
 ---
 
@@ -66,7 +66,7 @@ Both pages are fully responsive and optimized for **desktop and mobile views**.
 
 ---
 
-## 🧱 Tech Stack
+## Tech Stack
 
 | Technology        | Usage          |
 | ----------------- | -------------- |
@@ -102,7 +102,7 @@ This structure keeps **data, components, and styling cleanly separated**, making
 
 ---
 
-## 🔁 State & Logic
+## State & Logic
 
 * IPO data is stored locally as a JavaScript object to mock real API behavior
 * URL parameters are used to fetch the correct IPO details
@@ -110,7 +110,7 @@ This structure keeps **data, components, and styling cleanly separated**, making
 
 ---
 
-## 📱 Responsive Design Strategy
+## Responsive Design Strategy
 
 * Desktop-first layout using Flexbox
 * Media queries at `768px` breakpoint
@@ -119,7 +119,7 @@ This structure keeps **data, components, and styling cleanly separated**, making
 
 ---
 
-## 🛠️ How to Run the Project Locally
+## How to Run the Project Locally
 
 ```bash
 npm install
@@ -134,7 +134,7 @@ http://localhost:3000
 
 ---
 
-## 🎯 What This Project Demonstrates
+## What This Project Demonstrates
 
 * Strong understanding of **React fundamentals**
 * Ability to convert UI designs into functional components
@@ -144,7 +144,7 @@ http://localhost:3000
 
 ---
 
-## 📌 Possible Enhancements
+## Possible Enhancements
 
 * Fetch IPO data from a real API
 * Add animations to timeline transitions
